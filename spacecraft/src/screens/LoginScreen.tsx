@@ -17,6 +17,7 @@ export default function LoginScreen() {
   const [password, onChangePassword] = React.useState('');
   const [checked, onCheck] = React.useState(true)
   return (
+    <>
     <SafeAreaView style={styles.container}>
       <View style={styles.purple}>
         <Text style={styles.paragraph}>
@@ -64,6 +65,7 @@ export default function LoginScreen() {
       </TouchableHighlight>
       
     </SafeAreaView>
+    </>
   );
 }
 
