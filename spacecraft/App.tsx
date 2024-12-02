@@ -9,8 +9,8 @@ function App() {
   return (
     <PaperProvider>
       {/* <LoginScreen /> */}
-      <StarshipFeedScreen />
-       {/* <TermsScreen /> */}
+       <StarshipFeedScreen /> 
+      {/*  <TermsScreen /> */}
     </PaperProvider>
   );
 };
