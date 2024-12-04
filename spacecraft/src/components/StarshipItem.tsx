@@ -46,7 +46,7 @@ const StarshipItem: React.FC<{ starship: Starship }> = ({ starship }) => {
 const styles = StyleSheet.create({
     itemContainer: {
         flex: 1,
-        margin: 10
+        margin: deviceHeight/80
     },
     title: {
         fontSize: 20,
@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
     },
     images: {
         height: deviceHeight/3,
-        width: deviceWidth*5/6,
-        borderRadius: 4,
+        width: deviceWidth*9/10,
+        borderRadius: 6,
     }
 });
 export default StarshipItem;

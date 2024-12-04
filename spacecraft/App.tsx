@@ -8,8 +8,8 @@ import { StarshipFeedScreen } from './src/screens/StarshipFeedScreen';
 function App() {
   return (
     <PaperProvider>
-      {/* <LoginScreen /> */}
-       <StarshipFeedScreen /> 
+       <LoginScreen /> 
+      {/* <StarshipFeedScreen /> */}
       {/*  <TermsScreen /> */}
     </PaperProvider>
   );
